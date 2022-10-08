@@ -1,5 +1,74 @@
-<%- include('../partials/header') %>
-
-<h1 class="title">This is the home page</h1>
-
-<%- include('../partials/footer') %>
+<html>
+  <head>
+    <link rel="stylesheet" href="../../public/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="hero-headline">
+          JAW <span class="hero-underline">DROPPING</span> MUSICIANS
+        </h1>
+        <p class="tagline">The Musician library that will bring your jaw to the floor.</p>
+        <button id="login-button">LOGIN</button>
+      </div>
+    </div>
+    <div class="homepage-body">
+      <div class="discover-container">
+        <h2 class="instrument-heading">SELECT AN <span class="hero-underline">INSTRUMENT</span></h2>
+        <p>To discover musicians. Log in to add new jaw dropping musicians to the catalog.</p>
+      </div>
+      <div class="instrument-selector">
+        <div class="instument-container">
+          <article class="flow">
+      <div class="instrument-grid">
+          <ul class="auto-grid" role="list">
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">Vocal/Voice</h2> -->
+                <img alt="microphone" src="/public/images/microphone.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">String</h2> -->
+                <img alt="string instrument" src="/public/images/guitar.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">Keyboard</h2> -->
+                <img alt="keyboard instrument" src="/public/images/keyboard.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">Woodwind</h2> -->
+                <img alt="woodwind instrument" src="/public/images/saxophone.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">Brass</h2> -->
+                <img alt="brass instrument" src="/public/images/trumpet.jpg" />
+                </a>
+            </li>
+            <li>
+                <a href="https://swop.link/cool" target=_blank" class="instrument">
+                <!-- <h2 class="instrument__name">Percusion</h2> -->
+                <img alt="percusion instrument" src="/public/images/drums.jpg" />
+                </a>
+            </li>
+          </ul>
+      </div>
+      </article>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
